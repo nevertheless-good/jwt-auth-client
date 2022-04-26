@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5195631280FBB4C0027D832 /* AuthenticateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195630280FBB4C0027D832 /* AuthenticateView.swift */; };
+		A5195633280FDDFA0027D832 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195632280FDDFA0027D832 /* ListView.swift */; };
+		A5195635280FDE770027D832 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195634280FDE770027D832 /* ListViewModel.swift */; };
+		A5195637280FDEA50027D832 /* RefreshScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195636280FDEA50027D832 /* RefreshScrollView.swift */; };
+		A5195639280FDFE90027D832 /* RefreshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195638280FDFE90027D832 /* RefreshViewModel.swift */; };
+		A519563B280FE7DD0027D832 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519563A280FE7DC0027D832 /* WriteView.swift */; };
+		A519563D280FE81F0027D832 /* InputCharacterCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519563C280FE81F0027D832 /* InputCharacterCheck.swift */; };
+		A519563F280FFE570027D832 /* WriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519563E280FFE570027D832 /* WriteViewModel.swift */; };
+		A5195641280FFF340027D832 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195640280FFF340027D832 /* DetailView.swift */; };
+		A5195643281000020027D832 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195642281000020027D832 /* DetailViewModel.swift */; };
+		A571D66C2812615700194304 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571D66B2812615700194304 /* Webservice.swift */; };
+		A57B79A028127CA5009EE3BB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B799F28127CA5009EE3BB /* LoginView.swift */; };
+		A57B79A228127DA5009EE3BB /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B79A128127DA5009EE3BB /* RegisterView.swift */; };
+		A5825AF328153DFB0089A112 /* TitleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5825AF228153DFB0089A112 /* TitleListView.swift */; };
+		A5A3CD78280ED00C006F7359 /* jwtAuthClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A3CD77280ED00C006F7359 /* jwtAuthClientModel.swift */; };
+		A5A3CD7A280ED22E006F7359 /* AuthenticateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A3CD79280ED22E006F7359 /* AuthenticateViewModel.swift */; };
 		A5B63CB5280E94FA00FB77C0 /* jwt_auth_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B63CB4280E94FA00FB77C0 /* jwt_auth_clientApp.swift */; };
 		A5B63CB7280E94FA00FB77C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B63CB6280E94FA00FB77C0 /* ContentView.swift */; };
 		A5B63CB9280E94FF00FB77C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B63CB8280E94FF00FB77C0 /* Assets.xcassets */; };
@@ -14,6 +30,8 @@
 		A5B63CC6280E950000FB77C0 /* jwt_auth_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B63CC5280E950000FB77C0 /* jwt_auth_clientTests.swift */; };
 		A5B63CD0280E950000FB77C0 /* jwt_auth_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B63CCF280E950000FB77C0 /* jwt_auth_clientUITests.swift */; };
 		A5B63CD2280E950000FB77C0 /* jwt_auth_clientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B63CD1280E950000FB77C0 /* jwt_auth_clientUITestsLaunchTests.swift */; };
+		A5FAC3442817CDF900C3C63D /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = A5FAC3432817CDF900C3C63D /* JWTDecode */; };
+		A5FAC346281818C300C3C63D /* JWTDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FAC345281818C300C3C63D /* JWTDecode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5195630280FBB4C0027D832 /* AuthenticateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateView.swift; sourceTree = "<group>"; };
+		A5195632280FDDFA0027D832 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A5195634280FDE770027D832 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		A5195636280FDEA50027D832 /* RefreshScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshScrollView.swift; sourceTree = "<group>"; };
+		A5195638280FDFE90027D832 /* RefreshViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewModel.swift; sourceTree = "<group>"; };
+		A519563A280FE7DC0027D832 /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		A519563C280FE81F0027D832 /* InputCharacterCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCharacterCheck.swift; sourceTree = "<group>"; };
+		A519563E280FFE570027D832 /* WriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewModel.swift; sourceTree = "<group>"; };
+		A5195640280FFF340027D832 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A5195642281000020027D832 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		A571D66B2812615700194304 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		A57B799F28127CA5009EE3BB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A57B79A128127DA5009EE3BB /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A5825AF228153DFB0089A112 /* TitleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleListView.swift; sourceTree = "<group>"; };
+		A5A3CD77280ED00C006F7359 /* jwtAuthClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwtAuthClientModel.swift; sourceTree = "<group>"; };
+		A5A3CD79280ED22E006F7359 /* AuthenticateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateViewModel.swift; sourceTree = "<group>"; };
 		A5B63CB1280E94FA00FB77C0 /* jwt-auth-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jwt-auth-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B63CB4280E94FA00FB77C0 /* jwt_auth_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwt_auth_clientApp.swift; sourceTree = "<group>"; };
 		A5B63CB6280E94FA00FB77C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +78,7 @@
 		A5B63CCB280E950000FB77C0 /* jwt-auth-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jwt-auth-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B63CCF280E950000FB77C0 /* jwt_auth_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwt_auth_clientUITests.swift; sourceTree = "<group>"; };
 		A5B63CD1280E950000FB77C0 /* jwt_auth_clientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwt_auth_clientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5FAC345281818C300C3C63D /* JWTDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTDecode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FAC3442817CDF900C3C63D /* JWTDecode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +107,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A571D66A2812614000194304 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A571D66B2812615700194304 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5A3CD74280ECF81006F7359 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5195630280FBB4C0027D832 /* AuthenticateView.swift */,
+				A5B63CB6280E94FA00FB77C0 /* ContentView.swift */,
+				A5195640280FFF340027D832 /* DetailView.swift */,
+				A519563C280FE81F0027D832 /* InputCharacterCheck.swift */,
+				A5B63CB4280E94FA00FB77C0 /* jwt_auth_clientApp.swift */,
+				A5195632280FDDFA0027D832 /* ListView.swift */,
+				A57B799F28127CA5009EE3BB /* LoginView.swift */,
+				A5195636280FDEA50027D832 /* RefreshScrollView.swift */,
+				A57B79A128127DA5009EE3BB /* RegisterView.swift */,
+				A5825AF228153DFB0089A112 /* TitleListView.swift */,
+				A519563A280FE7DC0027D832 /* WriteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5A3CD75280ECF8A006F7359 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5A3CD79280ED22E006F7359 /* AuthenticateViewModel.swift */,
+				A5195642281000020027D832 /* DetailViewModel.swift */,
+				A5FAC345281818C300C3C63D /* JWTDecode.swift */,
+				A5195634280FDE770027D832 /* ListViewModel.swift */,
+				A5195638280FDFE90027D832 /* RefreshViewModel.swift */,
+				A519563E280FFE570027D832 /* WriteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A5A3CD76280ECF96006F7359 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5A3CD77280ED00C006F7359 /* jwtAuthClientModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A5B63CA8280E94FA00FB77C0 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +177,12 @@
 		A5B63CB3280E94FA00FB77C0 /* jwt-auth-client */ = {
 			isa = PBXGroup;
 			children = (
-				A5B63CB4280E94FA00FB77C0 /* jwt_auth_clientApp.swift */,
-				A5B63CB6280E94FA00FB77C0 /* ContentView.swift */,
 				A5B63CB8280E94FF00FB77C0 /* Assets.xcassets */,
+				A5A3CD76280ECF96006F7359 /* Model */,
 				A5B63CBA280E94FF00FB77C0 /* Preview Content */,
+				A571D66A2812614000194304 /* Services */,
+				A5A3CD74280ECF81006F7359 /* View */,
+				A5A3CD75280ECF8A006F7359 /* ViewModel */,
 			);
 			path = "jwt-auth-client";
 			sourceTree = "<group>";
@@ -143,6 +228,9 @@
 			dependencies = (
 			);
 			name = "jwt-auth-client";
+			packageProductDependencies = (
+				A5FAC3432817CDF900C3C63D /* JWTDecode */,
+			);
 			productName = "jwt-auth-client";
 			productReference = A5B63CB1280E94FA00FB77C0 /* jwt-auth-client.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +303,9 @@
 				Base,
 			);
 			mainGroup = A5B63CA8280E94FA00FB77C0;
+			packageReferences = (
+				A5FAC3422817CDF900C3C63D /* XCRemoteSwiftPackageReference "JWTDecode" */,
+			);
 			productRefGroup = A5B63CB2280E94FA00FB77C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +348,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FAC346281818C300C3C63D /* JWTDecode.swift in Sources */,
+				A5A3CD78280ED00C006F7359 /* jwtAuthClientModel.swift in Sources */,
+				A5195639280FDFE90027D832 /* RefreshViewModel.swift in Sources */,
+				A519563B280FE7DD0027D832 /* WriteView.swift in Sources */,
+				A519563D280FE81F0027D832 /* InputCharacterCheck.swift in Sources */,
+				A5A3CD7A280ED22E006F7359 /* AuthenticateViewModel.swift in Sources */,
+				A5195635280FDE770027D832 /* ListViewModel.swift in Sources */,
+				A519563F280FFE570027D832 /* WriteViewModel.swift in Sources */,
+				A5195641280FFF340027D832 /* DetailView.swift in Sources */,
+				A57B79A228127DA5009EE3BB /* RegisterView.swift in Sources */,
+				A5195637280FDEA50027D832 /* RefreshScrollView.swift in Sources */,
+				A57B79A028127CA5009EE3BB /* LoginView.swift in Sources */,
+				A5825AF328153DFB0089A112 /* TitleListView.swift in Sources */,
+				A571D66C2812615700194304 /* Webservice.swift in Sources */,
+				A5195643281000020027D832 /* DetailViewModel.swift in Sources */,
+				A5195633280FDDFA0027D832 /* ListView.swift in Sources */,
 				A5B63CB7280E94FA00FB77C0 /* ContentView.swift in Sources */,
+				A5195631280FBB4C0027D832 /* AuthenticateView.swift in Sources */,
 				A5B63CB5280E94FA00FB77C0 /* jwt_auth_clientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +691,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5FAC3422817CDF900C3C63D /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5FAC3432817CDF900C3C63D /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5FAC3422817CDF900C3C63D /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A5B63CA9280E94FA00FB77C0 /* Project object */;
 }
