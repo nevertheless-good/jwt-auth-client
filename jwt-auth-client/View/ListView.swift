@@ -32,9 +32,8 @@ struct ListView: View {
                                 }
                             }
                             .frame(width: geometry.size.width + 40, height: abs(geometry.size.height - 105), alignment: .leading)
-                            .offset(x: -20, y: -10)
                         }
-                        .frame(maxWidth: .infinity)
+//                        .frame(maxWidth: .infinity)
                     } onUpRefresh: {
                         self.titleListVM.getList(mode: UP)
                     } onDownRefresh: {
@@ -59,6 +58,7 @@ struct ListView: View {
                             .shadow(color: Color.white.opacity(0.1), radius: 5, x: 0, y: 5)
                     }
                 }
+                .offset(x: -20, y: 0)
             }
             .navigationBarTitle("Content List", displayMode: .inline)
             .padding(5)
