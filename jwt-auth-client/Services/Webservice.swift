@@ -68,7 +68,7 @@ class Webservice {
         var queryUrl: String = ""
         
         if mode == INIT || (startLoadIdx > lastLoadIdx) {
-            queryUrl = BASE_URL + "/posts?start=0&limit=\(QUERY_COUNT)&order=desc"
+            queryUrl = BASE_URL + "/posts?start=9999999999999&limit=\(QUERY_COUNT)&order=desc"
         } else if mode == DOWN {
             queryUrl = BASE_URL + "/posts?start=\(lastLoadIdx + 1)&limit=\(QUERY_COUNT)&order=asc"
         } else if mode == UP {

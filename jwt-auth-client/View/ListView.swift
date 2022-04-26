@@ -24,15 +24,17 @@ struct ListView: View {
                         VStack {
                             if titleListVM.titleLists.isEmpty {
                                 Text("There is no content")
-                                    .padding(.vertical, 30.0)
+                                    .padding(.vertical, 10.0)
                             }
                             List {
                                 ForEach(titleListVM.titleLists, id: \.self.id) { i in
                                     TitleListView(id: i.id, username: i.username, title: i.title, date: i.date_last_updated)
                                 }
                             }
-                            .frame(height: abs(geometry.size.height - 105), alignment: .leading)
+                            .frame(width: geometry.size.width + 40, height: abs(geometry.size.height - 105), alignment: .leading)
+                            .offset(x: -20, y: -10)
                         }
+                        .frame(maxWidth: .infinity)
                     } onUpRefresh: {
                         self.titleListVM.getList(mode: UP)
                     } onDownRefresh: {
@@ -40,6 +42,7 @@ struct ListView: View {
                     }
                     .onAppear {
                         if writePostVM.existSuccessPostContent {
+                            writePostVM.existSuccessPostContent = false
                             self.titleListVM.getList(mode: DOWN)
                         }
                     }
